@@ -10,7 +10,7 @@ jobs:
 
     steps:
       - name: Clone repository
-        uses: https://github.com/tumsrichomson/${{ github.repository }}.git
+        run: git clone https://github.com/tumsrichomson/learn-github-actions.git
 
       - name: Show message
         run: echo "Hello, GitHub Actions!"
